@@ -9,7 +9,7 @@
     color: #FFF;
     padding: 0.3em;
     margin: 0.8em auto;
-    width: 25%;
+    width: 35%;
 }
 
 .pokemon_container h3 {
@@ -123,4 +123,18 @@
 
 .data_height {
     border-right: 1px solid #ccc;
+}
+
+@media (min-width:280px) and (max-width: 450px) {
+    .pokemon_title {
+
+        width: 90%;
+    }
+}
+
+@media (min-width:450px) and (max-width: 768px) {
+    .pokemon_title {
+
+        width: 55%;
+    }
 }

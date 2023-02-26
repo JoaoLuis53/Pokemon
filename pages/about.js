@@ -13,7 +13,7 @@ export default function About() {
                 specimen book. It has survived not only five centuries, but also the leap into
                 electronictypesetting, remaining essentially unchanged.
             </p>
-            <Image src="/images/charizard.png" width="300" height="300" alt="Charizard" />
+            <Image src="/images/charizard.png" width="250" height="250" alt="Charizard" />
         </div>
 
     );

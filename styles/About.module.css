@@ -13,3 +13,10 @@
     max-width: 500px;
     line-height: 1.4;
 }
+
+@media (min-width:280px) and (max-width: 450px) {
+    .about p {
+        margin: 1.2em;
+        line-height: 1.2;
+    }
+}

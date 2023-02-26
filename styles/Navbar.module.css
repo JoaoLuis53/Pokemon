@@ -39,3 +39,10 @@
     border-color: #F00;
     color: #F00;
 }
+
+@media (min-width:280px) and (max-width: 450px) {
+    .link_items li {
+        margin-right: 0;
+        font-size: 13px;
+    }
+}

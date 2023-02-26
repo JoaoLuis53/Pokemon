@@ -44,3 +44,27 @@
     background-color: #e33d33;
     color: #FFF;
 }
+
+@media (min-width:280px) and (max-width: 450px) {
+    .card {
+        margin: auto;
+        margin-bottom: 2em;
+        width: 70%;
+    }
+}
+
+@media (min-width:450px) and (max-width: 600px) {
+    .card {
+        margin: auto;
+        margin-bottom: 2em;
+        width: 40%;
+    }
+}
+
+@media (min-width:600px) and (max-width: 768px) {
+    .card {
+        margin: auto;
+        margin-bottom: 2em;
+        width: 30%;
+    }
+}
